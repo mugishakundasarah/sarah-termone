@@ -6,11 +6,14 @@ steps to run:
 <!-- Run Frontend -->
 1. clone the repository 
 2. cd Frontend
+<!-- run the project -->
+npm run dev
+
 <!-- to run jest tests -->
-3. npm run test:watch
+ npm run test:watch
 
 <!-- to run cypress tests -->
-4. npm run test:cypress
+ npm run test:cypress
 
 
 <!-- Run Backend -->
