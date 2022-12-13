@@ -35,7 +35,7 @@ const Calculator = () => {
         <div className='calculator'>
             <div className="numbers">
                 {numbers.map((number, index) => (
-                    <div className='number' onClick={() => {setOperand(number)}}>{number}</div>
+                    <div className='number' data-testid={`${number}`} onClick={() => {setOperand(number)}}>{number}</div>
                 ))}
             </div>
             <div className="operations-container">
