@@ -3,17 +3,21 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "proxy": {
+    "*":{ "target" : "http://localhost:8080/api/v1/calculate"}
+ },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "test": "jest",
     "test:watch": "jest --verbose --watchAll --no-cache --runInBand",
-    "test:cypress" : "cypress run"
+    "test:cypress": "cypress run"
   },
   "dependencies": {
     "@babel/preset-env": "^7.20.2",
     "@babel/preset-react": "^7.18.6",
+    "axios": "^1.2.1",
     "identity-obj-proxy": "^3.0.0",
     "jest-environment-jsdom": "^29.3.1",
     "react": "^18.2.0",

@@ -1,9 +1,14 @@
 import { useState } from 'react'
 import './App.css'
+import Calculator from './Calculator'
 
 function App() {
   return (
-    <h1>Unsocial App</h1>
+    <div className='body'>
+      <div className='calc-container'>
+        <Calculator/>
+      </div>
+    </div>
   )
 }
 
