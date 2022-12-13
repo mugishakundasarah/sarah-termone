@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "proxy": {
-    "*":{ "target" : "http://localhost:8080/api/v1/calculate"}
+    "*":{ "target" : "http://localhost:8080"}
  },
   "scripts": {
     "dev": "vite",

@@ -24,7 +24,6 @@ const Calculator = () => {
                 'Content-Type': 'application/json',
             },
         })
-        console.log(result)
     }
     return ( 
         <> 
